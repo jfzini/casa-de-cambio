@@ -20,7 +20,7 @@ const addListItem = (data) => {
     currencyValues.forEach((element) => {
       let div = document.createElement('div');
       div.classList.add('value-container');
-      div.innerHTML = `<i class="fas fa-coins"></i><p>${
+      div.innerHTML = `<p><i class="fas fa-coins"></i> ${
         element[0]
       }</p> <p class="golden">${element[1].toFixed(3)}</p>`;
       currencyList.appendChild(div);
