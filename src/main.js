@@ -34,7 +34,7 @@ const addListItem = (data) => {
   }
 };
 
-const funcaozinha = () => {
+const handleSearch = () => {
   const moeda = currencyInput.value;
   if (moeda.length === 0) {
     Swal.fire({
@@ -49,4 +49,4 @@ const funcaozinha = () => {
     .then((data) => addListItem(data));
 };
 
-searchBtn.addEventListener('click', funcaozinha);
+searchBtn.addEventListener('click', handleSearch);
