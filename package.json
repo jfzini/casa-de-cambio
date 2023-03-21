@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite --open",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "vite --open"
   },
   "repository": {
     "type": "git",
@@ -19,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/jfzini/exercise-casa-de-cambio/issues"
   },
-  "homepage": "https://jfzini.github.io/casa-de-cambio",
+  "homepage": "https://github.com/jfzini/exercise-casa-de-cambio#readme",
   "type": "module",
   "dependencies": {
     "@sweetalert2/theme-dark": "^5.0.15",
