@@ -9,7 +9,8 @@
 body {
   font-family: Fira Code, monospace;
   color: white;
-  background-image: linear-gradient(to right, black , #1d2920);
+  background-color:  #282C33;
+  /* background-image: linear-gradient(to right, black , #1d2920); */
 }
 
 h1 {
@@ -29,6 +30,7 @@ h2 {
 
 .golden {
   color: #FFE713;
+  font-size: 13px;
 }
 
 main {
@@ -39,7 +41,7 @@ main {
 section {
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.06);;
   border-radius: 20px;
   margin: 5rem auto;
   max-width: 80vw;
@@ -57,11 +59,13 @@ section {
 
 .value-container {
   display: flex;
-  width: 190px;
+  width: 160px;
+  height: 44px;
   justify-content: space-around;
+  align-items: center;
   margin: 5px 10px;
   padding: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);;
   border-radius: 5px;
 }
 
@@ -69,7 +73,7 @@ input {
   padding: 10px;
   width: 171px;
   height: 48px;
-  background-color: rgba(217, 217, 217, 0.15);
+  background-color: rgba(255, 255, 255, 0.06);;
   border: none;
   border-radius: 10px;
   font-family: Fira Code, monospace;

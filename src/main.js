@@ -9,8 +9,8 @@ const referenceH2 = document.getElementById('reference-h2');
 const addListItem = (data) => {
   try {
     const moeda = currencyInput.value;
-    referenceH2.innerHTML = `Valores referentes a 1 ${moeda.toUpperCase()}`;
     currencyList.innerHTML = '';
+    referenceH2.innerHTML = `Valores referentes a 1 ${moeda.toUpperCase()}`;
     let currencyValues = [];
     currencyValues = Object.entries(data.rates);
     let currencies = Object.keys(data.rates);
@@ -50,3 +50,8 @@ const handleSearch = () => {
 };
 
 searchBtn.addEventListener('click', handleSearch);
+currencyInput.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    handleSearch();
+  }
+});

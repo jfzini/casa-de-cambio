@@ -20,6 +20,7 @@
   "homepage": "https://github.com/jfzini/exercise-casa-de-cambio#readme",
   "type": "module",
   "dependencies": {
+    "@sweetalert2/theme-dark": "^5.0.15",
     "sweetalert2": "^11.7.3",
     "vite": "^4.2.1"
   },
